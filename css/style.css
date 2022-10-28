@@ -163,55 +163,54 @@ header a:hover{
 
 }
 
-
-#nuestro-programa{
-   background-color: black;
+#nuestros-programas{
+   background-color: rgb(30.30.30);
    color: white;
    text-align: center;
 }
 
 #nuestros-programas .container{
-   padding: 100px 0px;
+   padding: 150px 12px;
+
 }
 
 #nuestros-programas h2{
    margin-top: 0;
 }
 
-#nuestros-programas{
+#nuestros-programas p{
    display: none;
 }
 
-#nuestros-programas{
+#nuestros-programas .carta{
 
 }
 
 .carta:first-child{
-      background-image: linear-gradient(
+   background-image: linear-gradient(
       0deg,
       rgba(0,0,0,0.5),
       rgba(0,0,0,0.5)
    ) 
+   ,url(../img/lila\ fondo\ 2.png);
 
-   ,url(../img/mmmm.jpg);
+}
+.carta:nth-child(2){
+   background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+   ) 
+   ,url(../img/lila\ fondo\ 2.png);
+
 }
 
-.carta:first-child(2){
-      background-image: linear-gradient(
+.carta:nth-child(3){
+   background-image: linear-gradient(
       0deg,
       rgba(0,0,0,0.5),
       rgba(0,0,0,0.5)
    ) 
+   ,url(../img/lila\ fondo\ 2.png);
 
-   ,url(../img/pintura\ 1.jpg);
-}
-
-.carta:first-child(3){
-      background-image: linear-gradient(
-      0deg,
-      rgba(0,0,0,0.5),
-      rgba(0,0,0,0.5)
-   ) 
-
-   ,url(../img/rojo.jpg);
 }
