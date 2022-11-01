@@ -123,7 +123,7 @@ header a:hover{
    justify-content: center;
    text-align: center;
    flex-direction: column;
-   height: 30vh;
+   height: 40vh;
    color: whitesmoke;
    background-image: linear-gradient(
       0deg,
@@ -131,7 +131,7 @@ header a:hover{
       rgba(0,0,0,0.5)
    ) 
 
-   ,url(../img/mmmm.jpg);
+   ,url(../img/tinta\ china.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
@@ -147,7 +147,7 @@ header a:hover{
    justify-content: center;
    text-align: center;
    flex-direction: column;
-   height: 30vh;
+   height: 40vh;
    color: whitesmoke;
    background-image: linear-gradient(
       0deg,
@@ -155,7 +155,7 @@ header a:hover{
       rgba(0,0,0,0.5)
    ) 
 
-   ,url(../img/lila\ fondo.webp);
+   ,url(../img/ilustacion\ digital.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
@@ -170,7 +170,7 @@ header a:hover{
    justify-content: center;
    text-align: center;
    flex-direction: column;
-   height: 30vh;
+   height: 40vh;
    color: whitesmoke;
    background-image: linear-gradient(
       0deg,
@@ -178,7 +178,7 @@ header a:hover{
       rgba(0,0,0,0.5)
    ) 
 
-   ,url(../img/lila\ fondo.webp);
+   ,url(../img/para\ cuadro.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
@@ -193,7 +193,7 @@ header a:hover{
    justify-content: center;
    text-align: center;
    flex-direction: column;
-   height: 30vh;
+   height: 40vh;
    color: whitesmoke;
    background-image: linear-gradient(
       0deg,
@@ -250,6 +250,29 @@ header a:hover{
    background-color: rgba(148, 0, 211, 0.461);
 }
 
+.extraa{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   height: 10vh;
+   color: whitesmoke;
+   background-image: linear-gradient(
+      0deg,
+      rgba(200, 117, 211, 0.757),
+      rgb(200, 117, 211, 0.757)
+   ) 
+
+   ,url(../img/lila\ fondo\ 2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+#extraa h2{
+   color: rgb(213, 3, 240);
+}
+
 .ilustraciones-analogas{
    display: flex;
    align-items: center;
@@ -264,7 +287,7 @@ header a:hover{
       rgba(0,0,0,0.5)
    ) 
 
-   ,url(../img/lila\ fondo\ 2.png);
+   ,url(../img/tinta\ china.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
@@ -287,7 +310,7 @@ header a:hover{
       rgba(0,0,0,0.5)
    ) 
 
-   ,url(../img/lila\ fondo\ 2.png);
+   ,url(../img/ilustacion\ digital.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
@@ -310,12 +333,82 @@ header a:hover{
       rgba(0,0,0,0.5)
    ) 
 
-   ,url(../img/lila\ fondo\ 2.png);
+   ,url(../img/para\ cuadro.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
 }
 #cuadross h2{
+   color: white;
+}
+
+.fotos1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   height: 30vh;
+   color: whitesmoke;
+   background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+   ) 
+
+   ,url(../img/lila\ fondo\ 2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+#fotos1 h2{
+   color: white;
+}
+
+.fotos2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   height: 30vh;
+   color: whitesmoke;
+   background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+   ) 
+
+   ,url(../img/lila\ fondo\ 2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+#fotos2 h2{
+   color: white;
+}
+
+
+.fotos3{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   height: 30vh;
+   color: whitesmoke;
+   background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+   ) 
+
+   ,url(../img/lila\ fondo\ 2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+#fotos3 h2{
    color: white;
 }
 
@@ -356,4 +449,19 @@ footer .container{
    display: flex;
    justify-content: center;
    align-items: flex-end;
+}
+
+
+@media (min-width:750px){
+
+   header .container{
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   header nav{
+      flex-direction: row;
+      padding-bottom: 0;
+      padding-right: 20px;
+   }
 }
